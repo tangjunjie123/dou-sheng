@@ -1,0 +1,24 @@
+mysql:
+  username: "root"
+  password: "Tjj@2002"
+  host: "123.56.9.154"
+  port: 3306
+  dbname: "tiktok"
+  timeout: "10s"
+redis:
+  addr: "123.56.9.154:6379"
+  password: "Tjj@2002"
+  poolSize: 30
+  DB: 0
+  minIdleConn: 30
+
+mongodb:
+  addr: "123.56.9.154"
+  port: "27017"
+  password: "Tjj@2002"
+
+consul:
+  hostAddr: "8.134.184.94"
+  hostPort: 8500
+  registerAddr: "127.0.0.1"
+  registerPort: 8091

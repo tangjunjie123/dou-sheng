@@ -1,0 +1,5 @@
+FROM golang
+WORKDIR /
+COPY app /
+COPY ./kit/etc/config.yaml /kit/etc/
+CMD ./app
